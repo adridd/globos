@@ -25,7 +25,7 @@ class Globo
       //ellipse(x,y,70,130);
       line(x,y+50,x,y+80);
       imageMode(CENTER);
-      image(fondo,x,y,600,600);
+      image(fondo,x,y,900,900);
   }
   
 }
