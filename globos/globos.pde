@@ -22,10 +22,12 @@ class Globo
 
   void dibujate()
   {
+
       //ellipse(x,y,70,130);
       line(x,y+50,x,y+80);
       imageMode(CENTER);
       image(fondo,x,y,900,900);
+
   }
   
 }
@@ -45,7 +47,9 @@ void setup()
 
 void draw()
 {
+
   background(circo);
+
   for(int i=0;i<globos.size();i++)
   {
     globos.get(i).update();
